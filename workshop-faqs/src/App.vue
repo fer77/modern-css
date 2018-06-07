@@ -1,5 +1,11 @@
 <template>
-  <div id="app" class="container mx-auto p-8">
+  <div id="app" class="container mx-auto p-8 w-3/5">
+    <div class="mt-4 mb-8 text-center">
+      <header>
+        <h1>FAQ</h1>
+        <p>It's okay. From time to time, we all have questions</p>
+      </header>
+    </div>
     <Question/>
     <Question/>
   </div>
