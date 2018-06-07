@@ -1,21 +1,25 @@
 <template>
   <div id="app">
-    <HelloWorld/>
+    <img src="./assets/logo.png">
+    <Question/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld'
+import Question from './components/Question'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Question
   }
 }
 </script>
 
 <style>
+@tailwind preflight;
+@tailwind utilities;
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
