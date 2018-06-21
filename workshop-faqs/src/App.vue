@@ -6,18 +6,21 @@
         <p>It's okay. From time to time, we all have questions</p>
       </header>
     </div>
-    <Question/>
-    <Question/>
+    <Accordion title="Crap attack? Don’t have one?"
+               body="If I drunk text you and you’re asleep,don’t text me in the morning…that ship has  sailed."/>
+    <h1>Mean while somewhere else in the page</h1>
+    <Accordion title="Check this out"
+               body="Another accordion somewhere else in the page"/>
   </div>
 </template>
 
 <script>
-import Question from './components/Question'
+import Accordion from './components/Accordion'
 
 export default {
   name: 'App',
   components: {
-    Question
+    Accordion
   }
 }
 </script>
